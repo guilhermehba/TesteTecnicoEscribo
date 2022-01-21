@@ -1,4 +1,4 @@
-somar ();
+somar (10);
 
 function somar(limite) {
     let multiplos3 = 0;
@@ -10,6 +10,6 @@ function somar(limite) {
         if (i % 5 === 0)
         multiplos5 += i;
     }
-    console.log(multiplos3+multiplos5);
+    console.log("A soma dos múltiplos de 3 e 5 abaixo do valor inserido é:",multiplos3+multiplos5);
 }
 
